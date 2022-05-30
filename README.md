@@ -2,11 +2,7 @@
 
 ### Multi-camera based Real-time Recognition and Tracking of Multiple Persons
 
-In order to improve safety in human-robot collaboration, we created a real-time human pose recognition and tracking system. In this thesis we start by detecting people and localizing their keypoints, like the hands or the nose, in images using convolutional neural network based algorithms. The keypoint prediction algorithm will process data from two or more different cameras in real-time.
-
-With the 2D keypoints location from each perspective, we construct a human model in 3D space using triangulation, which is a process to determine points in 3D space given its projections onto at least two images. Finally, we implemented a multi-person tracking algorithm to recognize a specific person on two different images.
-
-We evaluated each property of our system using various tests. We compared the precision and the inference time of the keypoints prediction algorithms in 2D image plane. We then evaluated the precision of our triangulation algorithm and we analyzed its stability when switching camera pairs to perform 3D reconstruction.
+In order to improve safety in human-robot collaboration, we created a real-time human pose recognition and tracking system. In this thesis we start by detecting people and localizing their keypoints, like the hands or the nose, in images using convolutional neural network based algorithms. The keypoint prediction algorithm will process data from two or more different cameras in real-time. With the 2D keypoints location from each perspective, we construct a human model in 3D space using triangulation, which is a process to determine points in 3D space given its projections onto at least two images. Finally, we implemented a multi-person tracking algorithm to recognize a specific person on two different images. We evaluated each property of our system using various tests. We compared the precision and the inference time of the keypoints prediction algorithms in 2D image plane. We then evaluated the precision of our triangulation algorithm and we analyzed its stability when switching camera pairs to perform 3D reconstruction.
 
 ### Generative models and inverse design
 
