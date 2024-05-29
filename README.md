@@ -5,7 +5,7 @@
 - __Description__: Cataract is the leading cause of blindness worldwide, with an increasing number of patients due to changing demographics. During my thesis, I focused on training a Reinforcement Learning (RL) agent on a substep of cataract surgery, the Continuous Curvilinear Capsulorhexis (CCC). This was based on a physically realistic simulation that mimics the tearing behavior of soft tissue during CCC. This work covers the implementation, training, and evaluation of the trained policies. It also lays the groundwork for future sim-to-real transfer by integrating domain randomization techniques. The results contributed to a paper titled "Lens Capsule Tearing in Cataract Surgery using Reinforcement Learning", which has been accepted at ICRA 2024. 
 
 <p align="center">
-  <img width="800" height="300" src="images/MA.png">
+  <img width="400" height="300" src="images/MA.png">
 </p>
 Paper: https://events.infovaya.com/presentation?id=122252
 
